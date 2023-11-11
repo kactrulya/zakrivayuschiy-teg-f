@@ -12,4 +12,10 @@
     --text-shadow-color: white;
     --icon-contour-color: black;
     --icon-main-body-color: #FF0000;
+    --font-weight-title: 700;
+    --font-weight-text: 400;
+    --button-text-color: #FFFFFF;
+    --dialog-text-color: #000;
+    --border-color-dialog: #000;
+    --favicon-color: #000;
 }

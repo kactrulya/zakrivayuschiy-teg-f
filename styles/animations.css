@@ -24,3 +24,25 @@
       transform: translateX(0); /* Завершение анимации: возврат в начальное положение */
     }
   }
+
+  @keyframes heart-scale {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+        transform-origin: center;
+    }
+  }
+  
+  @keyframes heart-opacity {
+    0% {
+        opacity: 0;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+  }

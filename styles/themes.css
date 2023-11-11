@@ -37,6 +37,12 @@
     --border-color: #00CC14;
     --text-shadow-color: #000000;
     --icon-contour-color: #00CC14;
+    --font-weight-title: 785;
+    --font-weight-text: 465;
+    --button-text-color: currentColor;
+    --dialog-text-color: #00CC14;
+    --border-color-dialog: #00CC14;
+    --favicon-color: #00CC14;
 }
 
 :root.theme-light {
@@ -48,4 +54,10 @@
     --border-color: #000;
     --text-shadow-color: white;
     --icon-contour-color: black;
+    --font-weight-title: 700;
+    --font-weight-text: 400;
+    --button-text-color: #FFFFFF;
+    --dialog-text-color: #000;
+    --border-color-dialog: #000;
+    --favicon-color: #000;
 }
