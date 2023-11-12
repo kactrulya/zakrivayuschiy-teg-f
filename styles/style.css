@@ -233,6 +233,7 @@
   flex-shrink: 0;
   position: relative; /* Делаем позицию относительной, чтобы псевдоэлемент был внутри */
   overflow: hidden;
+  cursor: pointer;
 }
 
 .card__like-button:focus {
@@ -393,6 +394,7 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .footer_button:focus {
