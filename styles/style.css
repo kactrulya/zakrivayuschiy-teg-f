@@ -146,7 +146,7 @@
   font-family: var(--main-font-family) , Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-variation-settings: var(--font-weight-title);
+  font-variation-settings: 'wght' var(--font-weight-title);
   line-height: normal;
   padding: 5px 10px;
   display: flex;
@@ -175,20 +175,21 @@
   font-family: var(--main-font-family) , Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-style: normal;
-  font-weight: var(--font-weight-text);
+  font-variation-settings: 'wght' var(--font-main-width);
   line-height: 21px; /* 116.667% */
 }
 
 .image-container {
   position: relative; /* Устанавливаем относительное позиционирование для контейнера */
+  
 }
+
 
 .image-label {
   position: absolute;
   top: 35px;
-  right: -54px;;
-  transform: translate(-50%, -50%); 
-  padding: 10px;
+  transform: translate(-110%, -50%);
+  padding: 15px;
   color: currentColor;
   font-family: var( --accent-font-family) , Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -199,11 +200,12 @@
   text-shadow: 1px 1px 0 var(--text-shadow-color), -1px -1px 0 var(--text-shadow-color), 1px -1px 0 var(--text-shadow-color), -1px 1px 0 var(--text-shadow-color);
   opacity: 0.5;
   mix-blend-mode: hard-light;
+  white-space: nowrap;
 }
 
 .button_section {
   display: flex;
-  gap: 12px;
+  gap: 4px;
   justify-content: flex-end;
 }
 
@@ -395,6 +397,12 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+}
+
+@media (width <= 375px) {
+  .footer_button {
+    flex-direction: column;
+  }
 }
 
 .footer_button:focus {
