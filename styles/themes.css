@@ -84,7 +84,7 @@
     --dialog-text-color: #000;
     --border-color-dialog: #000;
     --favicon-color: #000;
-    --floppy-color: #000;
+    --floppy-color: currentColor;
     --font-main-width: 400;
 }
 
@@ -104,7 +104,7 @@
         --dialog-text-color: #000;
         --border-color-dialog: #000;
         --favicon-color: #000;
-        --floppy-color: #000;
+        --floppy-color: currentColor;
         --font-main-width: 400;
     }
 }

@@ -27,7 +27,6 @@
   background-attachment: fixed;
   display: grid;
   justify-content: center;
-  font-family: var(--main-font-family), sans-serif;
 }
 
 .header {
