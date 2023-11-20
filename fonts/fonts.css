@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: 'Inter', serif;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     src: url(./Inter-Variable.woff2) format('woff2');
